@@ -1,0 +1,112 @@
+
+/*Style CSS Content */
+body{
+    font-family: 'Montserrat', 'sans-serif' !important;
+}
+
+/*Contact Us Section*/
+
+.contact-us-img{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.reach-out-contact > input,
+.reach-out-contact > textarea {
+    width: 50%;
+}
+
+/*LANDING PAGE*/
+/*Hero Section*/
+.hero-nonprofit{
+    background-image: url("../nonprofit/images/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 980px;
+}
+
+.current-project-descrip{
+    background-color: #F2F2F2;
+}
+.current-project-img{
+    width: 100%;
+    height: 500px;
+
+}
+
+.img-about-pic{
+    /*background-image: url("../nonprofit/images/Joy Morounfolu.jpeg");*/
+    width: 100%;
+    height: auto;
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-size: contain;*/
+}
+
+.about-story-section{
+    background-color: #F2F2F2;
+}
+
+.storytelling-section{
+    background-image: url("../nonprofit/images/body-background-img.jpeg");
+    width: 100%;
+    /*opacity: 0.5;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.break-point-img{
+    background-image: url("../nonprofit/images/tough.png");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*ABOUT PAGE*/
+/*Hero Section*/
+.hero-about-nonprofit{
+    background-image: url("../nonprofit/images/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+/*Carousel Section*/
+
+.carousel-section > .carousel-inner > .carousel-item > img{
+    width: 100%;
+    height: 612px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CONTACT US PAGE*/
+.break-point-contact-img{
+    background-image: url("../nonprofit/images/tough.png");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.break-point-project-img{
+    background-image: url("../nonprofit/images/breakpoint-img-project.png");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*DONATE PAGE*/
