@@ -20,12 +20,24 @@ body{
 /*LANDING PAGE*/
 /*Hero Section*/
 .hero-nonprofit{
-    background-image: url("../nonprofit/images/background.jpeg");
+    background-image: url("../images/background.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 980px;
+    height: 850px;
+}
+
+@media (max-width: 678px) {
+    .hero-nonprofit{
+        height: 1000px;
+    }
+}
+
+@media (max-width: 528px) {
+    .hero-nonprofit{
+        height: 1200px;
+    }
 }
 
 .current-project-descrip{
@@ -33,35 +45,24 @@ body{
 }
 .current-project-img{
     width: 100%;
-    height: 500px;
-
+    height: 600px;
 }
 
-.img-about-pic{
-    /*background-image: url("../nonprofit/images/Joy Morounfolu.jpeg");*/
-    width: 100%;
-    height: auto;
-    /*background-repeat: no-repeat;*/
-    /*background-attachment: fixed;*/
-    /*background-size: contain;*/
-}
 
 .about-story-section{
     background-color: #F2F2F2;
 }
 
 .storytelling-section{
-    background-image: url("../nonprofit/images/body-background-img.jpeg");
+    background-image: url("../images/body-background-img.jpeg");
     width: 100%;
-    /*opacity: 0.5;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-
 .break-point-img{
-    background-image: url("../nonprofit/images/tough.png");
+    background-image: url("../images/tough.png");
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -72,7 +73,7 @@ body{
 /*ABOUT PAGE*/
 /*Hero Section*/
 .hero-about-nonprofit{
-    background-image: url("../nonprofit/images/background.jpeg");
+    background-image: url("../images/background.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +92,7 @@ body{
 
 /*CONTACT US PAGE*/
 .break-point-contact-img{
-    background-image: url("../nonprofit/images/tough.png");
+    background-image: url("../images/tough.png");
     height: 300px;
     width: 100%;
     background-repeat: no-repeat;
@@ -100,13 +101,10 @@ body{
 }
 
 .break-point-project-img{
-    background-image: url("../nonprofit/images/breakpoint-img-project.png");
+    background-image: url("../images/breakpoint-img-project.png");
     height: 300px;
     width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-
-
-/*DONATE PAGE*/
