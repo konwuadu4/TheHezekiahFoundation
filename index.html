@@ -64,7 +64,7 @@
         <div class="container-md row align-items-center">
             <div class="p-2 p-lg-5 pt-lg-3">
                 <h1 class="display-4 fw-bold p-5 lh-1 my-5"> Forget What You Can Get. <br> See What You Can Give. </h1>
-                <p class="lead my-3 p-5 text-dark w-75"> The Hezekiah Foundation is an organization dedicated to devoting time, money, and resources to those in need. We want to focus on helping those in our community in order to see the direct impact that we have as a whole.
+                <p class="lead my-3 p-5 text-dark w-75"> The Hezekiah Foundation is an organization dedicated to devoting time, money, and resources to those in need. We want to focus on helping the community live the life they should live.
                     The goal is to dedicate an entire year to each chosen project.  </p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-4 p-5">
                     <button type="button" class="btn btn-danger btn-lg px-4 me-md-2 fw-bold"> <a  class="text-white text-decoration-none " href="#about-hezekiah"> Learn More </a>  </button>
@@ -110,7 +110,7 @@
     <div id="about-hezekiah" class="container-fluid m-0 p-0">
         <div class="storytelling-section p-5">
             <h1 class="mx-5 mt-5 text-center text-white fst-italic bg-danger w-25"> OUR STORY </h1>
-            <p class="my-5 mx-5 text-white w-50"> The Hezekiah Foundation is centered around Hezekiah Kudayisi, who suffered from a stroke on the night of April 28th, 2011.
+            <p class="my-5 mx-5 text-white w-50"> The Hezekiah Foundation is centered around Hezekiah Kudayisi, who suffered from a stroke on the night of April 28th, 2010.
                 He loved his grandchildren very much and was the true definition of a charitable giver.
                 The Hezekiah Foundation started when his granddaughter, Joy Morounfolu, decided that dedicating the foundation to her grandfather was the best way to commemorate his memory.
                 <br><br>
@@ -129,14 +129,14 @@
 
                 <br><br>
 
-                Pa Hezekiah Oladunjoye Kudayisi worked in several places. His first place of work was Outola Tyres and Sons in Ibadan (1954). He later moved to another job as a clerk in Baptist Bookshop, Oke-Bola, Ibadan (1957).
-                Pa Kudayisi, worked in several other places which include YMCA, in Ibadan, as a cocoa sales boy and trainer, and John Holt to mention a few. H.O.K. retired as a Chief Typist/Confidential Secretary in 1984 after 35 years of distinguished and meritorious service.
+                Pa Hezekiah Oladunjoye Kudayisi worked in several places. His first place of work was Odutola Tyres and Sons in Ibadan (1954). He later moved to another job as a clerk in Baptist Bookshop, Oke-Bola, Ibadan (1957).
+                Pa Kudayisi, worked in several other places which include YMCA, in Ibadan, as a cocoa sales boy and trainer, and John Holt to mention a few. H.O.K. retired as a Chief Typist/Confidential Secretary in 1984 in Ogun State Housing Corporation Abeokuta after 35 years of distinguished and meritorious service.
 
                 <br><br>
 
-                Pa Hezekiah Oladunjoye Kudayisi got married to his amiable wife, Mama Esther Wuraola Kudayisi (Nee Olde) in 1960, from a ruling family in Imasai.
+                Pa Hezekiah Oladunjoye Kudayisi got married to his amiable wife, Mama Esther Wuraola Kudayisi (Nee Olude) in 1960, from a ruling family in Imasai.
                 They were indeed, one flesh and inseparable when he was alive. He was blessed with distinguished children and grandchildren.
-                Hezekiah was a staunch member of Young Men Christian Association (YMCA) in St. Andrew Anglican Church, Ibara, Abeokuta for many years, where he contributed his quota immensely before his demise.
+                Hezekiah was a staunch member of Young Men Christian Association (YMCA) in St. Andrews Anglican Church, Ibara, Abeokuta for many years, where he contributed his quota immensely before his demise.
                 In special recognition of his sacrificial love and fatherly care to God's vineyard, a Meritorious Award was presented to Papa H.O.K. on the 25th January 2009 by St. Paul's Anglican Church, llewo Orile (Diocese of Yewa).
                 His soul is undoubtedly rejoicing before God, His Maker, and the father of our Lord Jesus Christ. To Him be the glory, honor, and dominion forever and ever, for giving us such a wonderful amiable personality as Papa Hezekiah Oladunjoye Kudayisi.
 
@@ -159,18 +159,18 @@
                 <form id="contactForm" onsubmit="sendEmail(); reset(); return false;">
                     <!-- Name input -->
                     <div class="mb-1">
-                        <label class="form-label" for="name">Name</label>
-                        <input class="form-control" id="name" type="text" placeholder="Name" />
+                        <label class="form-label" for="name"> Name </label>
+                        <input class="form-control" id="name" name="name" type="text" placeholder="Name" />
                     </div>
                     <!-- Email address input -->
                     <div class="mb-1">
-                        <label class="form-label" for="email">Email Address</label>
-                        <input class="form-control" id="email" type="email" placeholder="Email Address" />
+                        <label class="form-label" for="emailAddress"> Email Address </label>
+                        <input class="form-control" id="emailAddress" name="emailAddress" type="email" placeholder="Email Address" />
                     </div>
                     <!-- Message input -->
                     <div class="mb-1">
-                        <label class="form-label" for="message">Message</label>
-                        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+                        <label class="form-label" for="message"> Message </label>
+                        <textarea class="form-control" id="message" name="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
                     </div>
                     <!-- Form submit button -->
                     <div class="d-grid">
@@ -216,7 +216,11 @@
             <div class="col-lg-4 p-5">
                 <h5 class="font-weight-normal text-light pb-3"> Subscribe for Updates </h5>
                 <p class="text-light pb-3"> Keep in touch with us. Sign up to get updates on current and future projects that we are working on. </p>
-                <input type="email" class="form-control w-75" placeholder="Enter your email">
+                <form id="subscribeForm" onsubmit="subScribe(); reset(); return false;">
+                    <label class="form-label text-white" for="email"> Email Address </label>
+                    <input class="form-control w-75" id="email" name="emailAddress" type="email" placeholder="Enter Email Address">
+                    <button class="btn btn-danger btn-lg mt-3" type="submit"> Submit </button>
+                </form>
             </div>
         </div>
         <h6 class="text-center text-light m-0 py-3">Copyright © 2022 <a href="../index.html">The Hezekiah Foundation</a>. All rights
@@ -227,14 +231,30 @@
 <script src="https://smtpjs.com/v3/smtp.js"> </script>
 <script>
     function sendEmail(){
+        // let Email;
         Email.send({
             SecureToken: "347a3679-0722-464b-ae9b-6ac813795576",
-            To : 'konwuadu@gmail.com',
-            From : "New Inquiry ",
-            Subject : "New Contact Form Inquiry",
-            Body : "Name" + document.getElementById("name").value
-                + "<br> Email:" + document.getElementById("email").value
-                + "<br> Message:" + document.getElementById("message").value
+            To : 'thehezekiahfoundation@gmail.com',
+            From : "info@thehezekiahfoundation.com",
+            Subject : "New Inquiry",
+            Body : "Name: " + document.getElementById("name").value
+                + "<br> Email: " + document.getElementById("emailAddress").value
+                + "<br> Message: " + document.getElementById("message").value
+        }).then(
+            message => alert(message)
+        );
+    }
+</script>
+
+<script>
+    function subScribe(){
+        // let Email;
+        Email.send({
+            SecureToken: "347a3679-0722-464b-ae9b-6ac813795576",
+            To : 'thehezekiahfoundation@gmail.com',
+            From : "info@thehezekiahfoundation.com",
+            Subject : "New Subscription",
+            Body : "Email: " + document.getElementById("email").value
         }).then(
             message => alert(message)
         );

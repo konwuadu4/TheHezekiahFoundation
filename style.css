@@ -61,6 +61,13 @@ body{
     background-size: cover;
 }
 
+@media (max-width: 678px){
+    .p, h1{
+        width: 75%;
+    }
+
+}
+
 .break-point-img{
     background-image: url("../images/tough.png");
     height: 400px;
